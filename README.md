@@ -53,6 +53,13 @@ Pontos principais:
 
 ## Deploy
 
+O projeto da Vercel (time REDBOX) está ligado a este repositório:
+
+- push na `main` → publica em produção (https://crm.dommasistemas.com.br);
+- push em outra branch ou pull request → gera uma URL de pré-visualização.
+
+Publicação manual, se precisar:
+
 ```bash
 npx vercel deploy --prod --scope redbox6
 ```
